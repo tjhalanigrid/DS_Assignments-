@@ -1,10 +1,6 @@
 class Solution(object):
     def characterReplacement(self, s, k):
-        """
-        :type s: str
-        :type k: int
-        :rtype: int
-        """
+       
         freq = [0] * 26
         left = 0
         max_freq = 0
